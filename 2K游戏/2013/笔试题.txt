@@ -1,0 +1,63 @@
+职位：软件开发工程师
+1 char C[] = {“2kgames”};
+ Char * p = “2kgames”
+ Struct ttt
+{
+   Char a
+   Char b
+   Int c
+}
+
+(1)	Sizeof(c);
+(2)	Sizeof(p);
+(3)	Sizeof(ttt)
+
+2 自己实现函数strcpy();
+
+3 计算机中申请变量的不同方式，说明这些方式的不同点
+
+4 什么是深度拷贝
+  什么是虚函数，虚函数的优点
+  虚析构函数在什么情况下使用
+
+5 求特殊数
+  S(484) = 4 + 8 + 4 = 12;(求数值各个位上的和)， 如果某一个数值x满足S(x * x) = S(x) * S(x),则x为特殊数，比如x = 22为特殊数
+求某一个区间内特殊数的个数[low,high];
+Low属于[1,10000000],  high属于[low,10000000]
+(1)	请写出S(x)的取值范围
+(2)	如果x为特殊数，它是否只包含0,1,2,3四种数字
+int S(long x)
+{
+   Int sum = 0;
+   While(x > 0)
+{
+   __(1)___
+   X /= 10;
+}
+Return sum;
+}
+
+
+
+
+
+
+Int defineValue(int low,int high,int cur)
+{
+Int count = 0;
+For(int I = 0;I < 4;i++)
+{
+   X = 10 * cur + I;
+   ___(2)______
+        Continue;
+   If(x >= low && x <= high)
+     __(3)________
+   If(x <= high / 10)
+     ____(4)_________
+}
+}     
+ 
+Int TheCount(int low,int high,int cur)
+{
+    Return defineValue(low,high,0);
+}
