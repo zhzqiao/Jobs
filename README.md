@@ -23,4 +23,4 @@ e.g. <ques>1</ques>
 e.g. <content>线下商品促销之后，设计评价促销效果方案</content>
 
 #### &lt;A&gt;&lt;/A&gt;   答案
-e.g. <ans>线下商品促销之后，设计评价促销效果方案</ans>
+e.g. <ans>问卷调查、商铺进货调查···</ans>
