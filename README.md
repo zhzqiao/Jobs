@@ -16,13 +16,11 @@ e.g. <keys>算法; 数据结构</keys>
 现有关键词
 >笔试；面试；算法；数据结构；产品设计；思路设计；
 
-### &lt;content&gt;&lt;/content&gt;   题目内容
-e.g.
-<content>运营</content>
-  <bg>线下商品促销之后</bg>
-  <Q>设计评价促销效果方案</Q>
-  <A>```</A>
+### &lt;Q&gt;&lt;/Q&gt;   问题
+e.g. <ques>1</ques>
 
-#### &lt;bg&gt;&lt;/bf&gt;   背景
-#### &lt;Q&gt;&lt;/Q&gt;   问题
+#### &lt;content&gt;&lt;/content&gt;   题目内容
+e.g. <content>线下商品促销之后，设计评价促销效果方案</content>
+
 #### &lt;A&gt;&lt;/A&gt;   答案
+e.g. <ans>线下商品促销之后，设计评价促销效果方案</ans>
